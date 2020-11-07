@@ -13,11 +13,13 @@ font-family: 'Montserrat', sans-serif; */
 /* End Code to check grid layout */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: "Lobster", cursive;
 }
 
 h2 {
