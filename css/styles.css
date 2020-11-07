@@ -1,6 +1,17 @@
 /* font-family: 'Abril Fatface', cursive;
 font-family: 'Montserrat', sans-serif; */
 
+/* Code to check grid layout */
+/* .col{
+    border: solid 1px blue;
+    margin:2px;
+  }
+  .row {
+      border: solid 1px red;
+      margin:2px;
+  }  */
+/* End Code to check grid layout */
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
