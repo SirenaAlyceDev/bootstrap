@@ -107,12 +107,12 @@
                     </div>
                     <div class="card-body">
                         <form>
-                            <div class="row">
+                            <div class="form-group row">
                                 <div class="col-sm-6">
-                                    <label for="numCampers">Number of Campers</label>
+                                    <label class="col-form-label" for="numCampers">Number of Campers</label>
                                 </div>
                                 <div class="col"> 
-                                    <select name="numCampers" multiple class="form-control" id="numCampers">
+                                    <select name="numCampers" class="form-control" id="numCampers">
                                         <option>Select...</option>
                                         <option>1</option>
                                         <option>2</option>
@@ -123,11 +123,22 @@
                                     </select>
                                 </div>                            
                             </div>
-                              <div class="row">
+
+                              <div class="form-group row">
                                 <div class="col-sm-6">
-                                    <label for="date">Date</label>
+                                    <label class="col-form-label" for="date">Date</label>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control" type="date" id="date" name="date" placeholder="date">
                                 </div>
                               </div>
+
+                              <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
+                              </div>
+
                         </form>
                     </div>
                   </div>
